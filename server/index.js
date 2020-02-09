@@ -6,4 +6,7 @@ app.get('/foo.json', (req, res) => {
   res.send('{"hey":"there"}');
 })
 
-app.listen(process.env.PORT || 3001);
+app.listen(process.env.PORT || 3001, () => {
+  console.log("Server started on: https://localhost:3001");
+  console.log("Visit this URL for the client: https://localhost:3000");
+});
