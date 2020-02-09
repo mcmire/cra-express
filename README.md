@@ -7,11 +7,13 @@ To run this app, run two terminal sessions, one for the server, the other for th
 For the server session, run:
 
     cd server
+    yarn install
     yarn start
 
 For the client session, run:
 
     cd client
+    yarn install
     yarn start
 
 Now visit:
